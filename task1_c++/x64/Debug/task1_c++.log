@@ -1,0 +1,5 @@
+﻿  task1_c++.cpp
+C:\Users\adria\Desktop\SDD\task1_c++\task1_c++.cpp(235,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  task1_c++.vcxproj -> C:\Users\adria\Desktop\SDD\task1_c++\x64\Debug\task1_c++.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
