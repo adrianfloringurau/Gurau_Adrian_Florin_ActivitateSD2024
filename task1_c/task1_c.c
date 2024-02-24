@@ -111,7 +111,7 @@ void setValori(struct Girofar* obiect, const char* cod, int nrCulori, enum Culoa
 		&& nivelIntensitateCuloare != NULL) {
 		(*obiect).nrCulori = nrCulori;
 		if ((*obiect).culori != NULL) {
-			free(obiect->culori);
+			free((*obiect).culori);
 			(*obiect).culori = NULL;
 		}
 		if ((*obiect).timpAfisareCuloare != NULL) {
@@ -247,7 +247,7 @@ void main() {
 	struct Girofar girofar;
 	initializeaza(&girofar);
 
-	afiseaza(&girofar); //girofar neinitializat
+	afiseaza(&girofar); //girofar initializat
 
 	setValori(&girofar, "XA-20 .24", 3, culori, timp, intensitate, 16, 36, 12);
 
