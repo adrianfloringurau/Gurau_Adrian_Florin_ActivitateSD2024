@@ -1,0 +1,85 @@
+﻿Task suplimentar 1 - Struct si functii:
+
+Se consideră prima literă din numele vostru, și prima literă din prenumele vostru.
+
+Sa se construiască un articol care să conțină cele două litere.
+
+ 
+
+Exemplu: Alin Zamfiroiu ->A si Z. Articolul Magazin:
+
+struct Magazin{
+
+int cod;
+
+char* denumire;
+
+int nrProduse;
+
+float *preturi;
+
+}
+
+ 
+
+Articolul trebuie să aibă logica. Articolul trebuie sa fie un substantiv. Articolul trebuie sa aibă cel puțin trei atribute, si cel puțin unul să fie alocat dinamic.
+
+Realizati o functie cu ajutorul careia sa cititi de la tastatura un articol de tipul construit de voi. Funcția returnează obiectul citit.
+
+Realizati o functie care calculeaza ceva pentru un obiect de tipul implementat de voi. (o medie sau o suma, un maxim, un minim...sau orice altceva)
+
+Realizati o functie care modifica pentru un obiect primit ca parametru, un anumit camp. noua valoare este primita ca parametru.
+
+Realizați o funcție care afișează un obiect de tipul creat. Afișarea se face la console, și sunt afișate toate informațiile.
+
+=======================================================================================================================================================================================================
+
+Task suplimentar 2 - Vectori:
+
+Considerati codul de la task-ul precedent.
+
+Creati in functia main un vector alocat dinamic cu cel putin 5 obiecte de tipul structurii voastre.
+
+Realizati o functie care va creea un nou vector în care va copia dintr-un vector primit ca parametru obiectele care indeplinesc o anumita conditie. Stabiliti voi conditia in functie de un atribut sau doua atribute.
+
+Realizati o functie care muta intr-un nou vector obiectele care indeplinesc o alta conditie fata de cerinta precedenta.
+
+Realizati o functie care concateneaza doi vectori.
+
+ 
+
+Realizati o functie care afiseaza un vector cu obiecte.
+
+ 
+
+Apelati toate aceste functii in main().
+
+=======================================================================================================================================================================================================
+
+Task suplimentar 3 - Fisiere:
+
+Considerati codul de la task-ul precedent.
+
+Creati un fisier in care sa aveti minim 10 obiecte de tipul structurii create. Asezarea in fisier a elementelor o faceti la libera alegere.
+
+Scrieti intr-un program C functia care sa citeasca obiectele din fisier si sa le salveze intr-un vector.
+
+Scrieti o functie care va salva un obiect  intr-un fisier text.
+
+Scrieti o functie care va salva un vector de obiecte intr-un fisier text.
+
+=======================================================================================================================================================================================================
+
+Task suplimentar 4 - Matrice:
+
+Considerati codul de la task-ul precedent.
+
+Creati un fisier in care sa aveti minim 10 obiecte de tipul structurii create. Asezarea in fisier a elementelor o faceti la libera alegere.
+
+Scrieti intr-un program C functia care sa citeasca obiectele din fisier si sa le salveze intr-un vector.
+
+Creati o functie care sa copieze (deep copy) elementele din vector intr-o matrice alocată dinamic. Asezarea in matrice pe linii a obiectelor o faceti dupa un criteriu aplicat unui atribut. Astfel veti obține mai multe clustere reprezentate de liniile matricei.
+
+Scrieti o functie care muta liniile din matrice, astfel incat acestea sa fie sortate dupa numarul de elemente de pe linie.
+
+Scrieti o functie care sa afiseze elementele dintr-o matrice.
