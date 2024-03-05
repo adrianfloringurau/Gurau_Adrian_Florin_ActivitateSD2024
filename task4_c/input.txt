@@ -1,0 +1,33 @@
+11
+Girofarul 1, 3
+alb, 4, 25, albastru, 3, 30, alb, 5, 50
+11, 12, 13
+Girofarul 2, 2
+rosu, 7, 100, mov, 10, 50
+8, 14, 12
+Girofarul 3, 4
+alb, 4, 25, rosu, 5, 88, alb, 4, 25
+19, 13, 17
+Girofarul 4, 2
+galben, 10, 90, albastru, 7, 70
+20, 22, 22
+Girofarul 5, 1
+rosu, 15, 100
+8, 12, 16
+Girofarul 6, 2
+mov, 6, 11, alb, 2, 25
+30, 25, 28
+Girofarul 7, 1
+galben, 20, 85
+5, 6, 7
+Girofarul 8, 3
+albastru, 1, 33, albastru, 1, 66, albastru, 1, 99
+6, 6, 6
+Girofarul 9, 2
+alb, 4.25, 78, mov, 6.66, 66
+8, 8, 8
+Girofarul 10, 5
+galben, 10.12, 45, alb, 7.83, 80, rosu, 9.98, 34, mov, 3.67, 90, albastru, 3.14, 100
+13, 15, 26
+Girofarul 11, 0
+20, 25, 26
