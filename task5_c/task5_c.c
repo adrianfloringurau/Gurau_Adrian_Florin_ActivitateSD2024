@@ -52,10 +52,13 @@ void seteazaValoriFugar(struct Fugar* f, int id, const char* nume, char sex) {
 
 void dezalocareLista(struct Nod** prim) {
 	if (*prim != NULL) {
-		struct Nod* curent = *prim;
+		struct Nod* curent = (*prim)->next;
+		struct Nod* aux = *prim;
 		do {
-			dezalocareFugar(curent->info);
-			curent->info = NULL;
+			dezalocareFugar(aux->info);
+			aux->info = NULL;
+			free(aux);
+			aux = curent;
 			curent = curent->next;
 		} while (curent != NULL);
 		*prim = NULL;
